@@ -5,7 +5,7 @@ from pydantic import BaseModel
 app = FastAPI(
     title="API de Gestión de Estudiantes",
     description="API RESTful para registrar y consultar estudiantes",
-    version="1.0.0"
+    version="1.1.0"
 )
 
 
