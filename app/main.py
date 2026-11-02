@@ -18,6 +18,15 @@ class Student(BaseModel):
 students = []
 next_id = 1
 
+@app.get("/")
+def root():
+    return {"mensaje": "API de Gestión de Estudiantes", "docs": "/docs"}
+
+
+@app.get("/health")
+def health():
+    return {"status": "ok", "version": app.version}
+
 
 @app.post("/students", status_code=201)
 def create_student(student: Student):
