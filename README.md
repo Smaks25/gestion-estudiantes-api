@@ -63,7 +63,7 @@ python -m pytest -v
 ## Integración continua
 
 El archivo `buildspec.yml` define el pipeline de AWS CodeBuild: instala dependencias, ejecuta las pruebas y empaqueta los artefactos.
-
+    git
 ## Limitaciones conocidas
 
 Los estudiantes se guardan en memoria, así que se pierden al reiniciar el servicio.
@@ -76,4 +76,4 @@ Los estudiantes se guardan en memoria, así que se pierden al reiniciar el servi
 
 ## Autor
 
-Santiago Cogollo Peña · [LinkedIn](www.linkedin.com/in/santiago-cogollo-96196a260)
+Santiago Cogollo Peña · [LinkedIn](https://www.linkedin.com/in/santiago-cogollo-96196a260)
